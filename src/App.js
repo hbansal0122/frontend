@@ -36,6 +36,7 @@ function App() {
         alert("Thank you for dealing with us")
       })
       .catch(function (err) {
+        alert("Backend has some problems")
         console.error(err);
       });
 
